@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+:root {
+    --bgcolor:#111827;
+    --color:white;
+    --linkcolor:#1E40AF;
+    --hovercolor:#ffc72c;
+    --graycolor:#6B7280;
+}
+body {
+    /* font-family:'Merienda',cursive; */
+    font-family: 'Noto Sans HK', sans-serif;
+    /* font-family:Poppins; */
+    background-color: var(--bgcolor);
+    color:var(--color);
+    
+}
+
+hr {
+    margin:2.2rem 0rem;
+}
+
+
+.navbar {
+    background-color: #000000;
+    border-bottom-right-radius: 1rem;
+    padding:0.5rem 1rem 0.2rem;
+}
+.navbar ul {
+    text-align:right;
+    margin-right:1rem;
+}
+
+
+
+.navbar .container-fluid ul li{
+list-style: none;
+display:inline;
+padding:2.5rem;
+
+}
+.navbar .container-fluid ul li a {
+    color:white;
+    text-decoration: none;
+
+}
+.navbar .container-fluid ul li a:hover {
+    color:var(--hovercolor);
+    transition:color 500ms;
+    cursor: pointer;
+    border-bottom: 3px solid var(--hovercolor);
+    padding-bottom: 10px;
+    transition:border-bottom-width 200ms ease-in-out;
+}
+
+.navbar .container-fluid ul li .active {
+    color:var(--hovercolor);
+}
+
+.hidden {
+    display:none;
+}
+
+.img-profile {
+    height:100vh;
+    display:flex;
+    margin-left:auto;
+    margin-top:0px;
+    max-width:800px;
+}
+
+.fluid-container {
+    margin:0.5rem 1rem;  
+  } 
+
+  .profile {
+      display:grid;
+      grid-template-columns: 38% 60%;
+  }
+
+
+
+  .profile-header {
+      text-align:center;
+      align-content: center;
+      display:flex;
+      align-items: center;
+      font-size: 80px;
+      justify-content: center;
+      color:var(--hovercolor);
+  }
+
+  .profile-header-div {
+      /* margin:0px;
+      text-align:top;
+      align-content: top;
+      display:flex;
+      align-items: top;
+      height:100vh;
+      justify-content: top;
+      align-self: top; */
+      margin-top:120px;
+      background-attachment: fixed;
+      
+  }
+
+  .profile-image-div {
+      margin:0px;
+  }
+
+  .profile-caption {
+      margin:auto;
+      text-align:center;
+  }
+
+  main {
+      margin:35px;
+  }
+.main-h1 {
+    text-align: center;
+    margin:15px;
+    padding-top:50px;
+}
+
+hr {
+    width:5%;
+    margin:auto;
+    color:var(--hovercolor);
+    border-top:3px solid var(--hovercolor);
+    transition:border-width 200ms ease-in-out;    
+}
+
+.main-body {
+    padding:50px;
+    font-size:20px;
+    
+}
+
+/*  
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2 , auto);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap:3rem;
+   grid-auto-columns: auto; 
+}
+
+.projects .project-container {
+    margin-top:35px;
+}
+.projects .project-img-div img {
+    max-width:220px; 
+    display:block;
+    width:100%;
+    height:100%;
+    padding:0px 5px;
+    margin-left:150px;
+    margin-top:35px;
+     border:3px solid var(--hovercolor);   
+}
+
+
+*/
+
+.projects {
+    display:grid;
+    grid-row-gap:3rem;
+}
+
+.projects .project-container {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:2rem;
+    grid-auto-rows: minmax(100px,auto);
+}
+
+.projects .project-container .profile-image-div,img{
+    max-width:220px;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    margin-top:50px;
+}
+.projects .project-container .profile-image-div,p {
+    display:flex;
+    align-self:center;
+}
