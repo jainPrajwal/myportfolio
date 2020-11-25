@@ -7,6 +7,14 @@
     --linkcolor:#1E40AF;
     --hovercolor:#ffc72c;
     --graycolor:#6B7280;
+    --blackcol:black;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+* {
+    margin:0px;
+    padding:0px;
 }
 body {
     /* font-family:'Merienda',cursive; */
@@ -22,30 +30,30 @@ hr {
 }
 
 
-.navbar {
+.navigation {
     background-color: #000000;
     border-bottom-right-radius: 1rem;
-    padding:0.5rem 1rem 0.2rem;
+    padding:0.5rem 1rem 1rem;
 }
-.navbar ul {
+.navigation ul {
     text-align:right;
     margin-right:1rem;
 }
 
 
 
-.navbar .container-fluid ul li{
+.navigation .container-fluid ul li{
 list-style: none;
 display:inline;
 padding:2.5rem;
 
 }
-.navbar .container-fluid ul li a {
+.navigation .container-fluid ul li a {
     color:white;
     text-decoration: none;
 
 }
-.navbar .container-fluid ul li a:hover {
+.navigation .container-fluid ul li a:hover {
     color:var(--hovercolor);
     transition:color 500ms;
     cursor: pointer;
@@ -54,7 +62,7 @@ padding:2.5rem;
     transition:border-bottom-width 200ms ease-in-out;
 }
 
-.navbar .container-fluid ul li .active {
+.navigation .container-fluid ul li .active {
     color:var(--hovercolor);
 }
 
@@ -167,6 +175,9 @@ hr {
 .projects {
     display:grid;
     grid-row-gap:3rem;
+    background-color: black;
+    padding:2rem;
+    border-radius: 2rem;;
 }
 
 .projects .project-container {
@@ -186,4 +197,116 @@ hr {
 .projects .project-container .profile-image-div,p {
     display:flex;
     align-self:center;
+}
+
+/*certifications
+
+.certification-section {
+     text-align:center; 
+     padding:10rem 2rem;
+      padding:2rem; 
+}
+
+.certification-header {
+    text-align:center;
+    padding:1rem;
+}
+
+.certification-section .certification-grid {
+    border:1px solid brown;
+    display:grid;
+    grid-template-columns: repeat(auto-fit , minmax(320px,1fr));
+    grid-gap:2rem;
+    max-width:1300px; 
+    margin:0 auto;
+     width:100%; 
+    margin-bottom:160rem; 
+}
+
+.cert-img {
+    width:max-content;
+    height:300px;
+    object-fit: cover;
+    margin:0px;
+    position:relative;
+    left:50px;
+}
+
+ .certification-section .certification-grid .cert-box {
+    border:1px solid black;
+    text-decoration: none;
+     margin:auto; 
+     text-align:center; 
+    background-color: black;
+    border-radius: 2rem;
+    margin:20px;
+    position:relative;
+    top:10px;
+
+}
+
+.cert-title {
+    text-align:center;
+    color:white;
+    padding:1rem;
+    justify-content: center;
+
+}*/
+
+
+.certification-grid {
+    /* border:3px solid var(--bgcolor);  */
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(445px,auto));
+    grid-column-gap:3rem;
+    grid-row-gap:1rem;
+    grid-auto-rows: minmax(360px,auto);
+}
+
+.certification-grid .cert-box {
+    /* border:1px solid green; */
+    background-color: black;
+    border-radius:0.5rem;
+    margin:20px;
+    margin-top:40px;
+    text-decoration: none;
+    width:500px;
+
+}
+
+.certification-grid .cert-box .cert-img {
+    border:1px solid cyan;
+    min-width:490px;
+    height:300px;
+    margin-top:0px;
+    border-radius: 0.3rem;
+}
+
+.certification-grid .cert-box .cert-title {
+    /* border:1px solid yellow; */
+    text-align:center;
+    color:white;
+    justify-content: center;
+    margin-top:16px;
+    font-size:22px;
+    padding:10px;
+}
+
+.code  {
+    color: black;
+    /*Its there just camouflaged */
+    transition: color 0.3s ease-out;
+}
+
+.cert-box:hover .code {
+    color:var(--hovercolor);
+}
+
+.certification-header {
+    margin-top:30px;
+    padding:20px;
+    text-align:center;
+}
+.certification-header hr {
+    padding:20px;
 }
