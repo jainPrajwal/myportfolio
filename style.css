@@ -33,11 +33,22 @@ hr {
 .navigation {
     background-color: #000000;
     border-bottom-right-radius: 1rem;
-    padding:0.5rem 1rem 1rem;
+    padding:0.5rem 1rem 0.2rem;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    z-index:10; 
+    justify-content: flex-end;
+
 }
 .navigation ul {
+    /* display:flex; */
+
     text-align:right;
     margin-right:1rem;
+    padding:10px;
 }
 
 
