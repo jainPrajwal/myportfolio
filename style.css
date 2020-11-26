@@ -53,9 +53,24 @@ body {
 .navigation .brand {
     position:fixed;
     left:10px;
+    display:flex;
+}
+.navigation .brand .brace {
+    color:var(--hovercolor);
 }
 
+.navigation .brand:hover .brace {
+    color:#10B981;
+    transition:color 500ms ease-in-out;
+}
 
+.prajwal {
+    color:#10B981;
+    font-weight:20px;
+}
+.web-dev {
+    color:var(--hovercolor);
+}
 .navigation .container-fluid ul li{
 list-style: none;
 display:inline;
@@ -364,7 +379,7 @@ padding:2.5rem;
     margin:auto;
     justify-content: center;
     /* border:1px solid red; */
-    margin-bottom:120px;
+    /* margin-bottom:120px; */
 }
 
 .contact-div ul li {
@@ -474,6 +489,7 @@ padding:2.5rem;
 
     .main-body {
         margin:0px;
+        padding-top:30px;
         padding:0px;
     }
     .projects .project-container{
@@ -515,4 +531,10 @@ padding:2.5rem;
         font-size:30px;
     }
 
+}
+
+@media screen and (max-width:512px) {
+    .aboutme-div {
+        padding-bottom:10px;
+    }
 }
