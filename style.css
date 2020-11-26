@@ -50,7 +50,10 @@ body {
     margin-right:1rem;
     padding:10px;
 }
-
+.navigation .brand {
+    position:fixed;
+    left:10px;
+}
 
 
 .navigation .container-fluid ul li{
