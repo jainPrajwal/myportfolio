@@ -206,7 +206,7 @@ padding:2.5rem;
     grid-auto-rows: minmax(100px,auto);
 }
 
-.projects .project-container .profile-image-div,img{
+.projects .project-container .profile-image-div,img {
     max-width:220px;
     margin:auto;
     display:flex;
@@ -294,8 +294,8 @@ padding:2.5rem;
 }
 
 .certification-grid .cert-box .cert-img {
-    border:1px solid cyan;
-    min-width:490px;
+    /* border:1px solid cyan; */
+    min-width:500px;  
     height:300px;
     margin-top:0px;
     border-radius: 0.3rem;
@@ -425,6 +425,8 @@ padding:2.5rem;
         display:flex;
         margin: 0 1rem;
         justify-content: center;
+        position: relative;
+        left:150px;
         /* border:1px solid green; */
         
        }
@@ -490,7 +492,7 @@ padding:2.5rem;
 @media screen and (max-width:512px) {
     .certification-section .certification-grid{
         /* margin-right:-1030px; */
-        border:1px dotted yellow;
+        /* border:1px dotted yellow; */
         display:grid;
         justify-items: center;
     }
@@ -499,4 +501,18 @@ padding:2.5rem;
 /*contact section */
 .contact-div ul li {
     padding:0px;
+}
+
+@media screen and  (max-width:512px) {
+    .main-h1 {
+        padding-top:0px;
+        font-size:30px;
+    }
+}
+
+@media screen and  (max-width:512px) {
+    .contact-section-header {
+        font-size:30px;
+    }
+
 }
