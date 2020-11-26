@@ -140,6 +140,7 @@ padding:2.5rem;
   main {
       margin:35px;
   }
+
 .main-h1 {
     text-align: center;
     margin:15px;
@@ -389,6 +390,7 @@ padding:2.5rem;
     html  {
         font-size: 60%;
         width:fit-content;
+        width:550px;
     }
 }
 /* 980px / 16px = 61.25em */
@@ -406,13 +408,14 @@ padding:2.5rem;
 }
 
     /*navbar*/
-    @media (max-width: 512px) {
+    @media screen and  (max-width: 512px) {
         .navigation  {
             /* display:flex; */
             justify-content: center;
             /* position:relative; */
             /* border:1px solid cyan; */
             border-bottom-left-radius: 1rem;
+            position:fixed;
         }
     
         .navigation .container-fluid ul {
@@ -459,3 +462,32 @@ padding:2.5rem;
             margin-top:0px;
         }
     }
+
+    /*about me*/
+@media (max-width: 512px) {
+
+    .main-body {
+        margin:0px;
+        padding:0px;
+    }
+    .projects .project-container{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap:50px;
+
+    }
+
+    .projects .project-container .profile-img{
+        display:none;
+    }
+}
+
+/*certification section*/
+@media (max-width:512px) {
+    .certification-section .certification-grid{
+        /* margin-right:-1030px; */
+        border:1px dotted yellow;
+        display:grid;
+        justify-items: center;
+    }
+}
