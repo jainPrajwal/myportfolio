@@ -54,9 +54,18 @@ body {
     position:fixed;
     left:10px;
     display:flex;
+    letter-spacing: 3px;
+    /* line-height: 3px; */
+}
+
+.h3-brand:hover {
+    color:var(--hovercolor);
+    transition: color 500ms ease-in-out;
 }
 .navigation .brand .brace {
     color:var(--hovercolor);
+    font-size:25px;
+    line-height:22px;
 }
 
 .navigation .brand:hover .brace {
@@ -113,7 +122,7 @@ padding:2.5rem;
 
   .profile {
       display:grid;
-      grid-template-columns: 38% 60%;
+      grid-template-columns: 40% 60%;
       grid-auto-rows: minmax(150px,auto);
   }
 
@@ -127,6 +136,7 @@ padding:2.5rem;
       font-size: 80px;
       justify-content: center;
       color:var(--hovercolor);
+      letter-spacing: 3px;
   }
 
   .profile-header-div {
@@ -150,9 +160,11 @@ padding:2.5rem;
   .profile .profile-header-div .profile-caption {
       /* border:1px solid red; */
       text-align:center;
-      display:flex;
+      display:inline;
       justify-content: center;
       padding:15px;
+      font-size:22px;
+      
   }
 
   main {
@@ -163,6 +175,7 @@ padding:2.5rem;
     text-align: center;
     margin:15px;
     padding-top:50px;
+    letter-spacing: 3px;
 }
 
 .hr {
@@ -340,6 +353,7 @@ padding:2.5rem;
     margin-top:30px;
     padding:20px;
     text-align:center;
+    letter-spacing: 3px;
 }
 .certification-header .hr {
     padding:20px;
@@ -351,6 +365,7 @@ padding:2.5rem;
     font-weight:50;
     text-align:center;
     padding:10px;
+    letter-spacing: 3px;
 }
 .contact-section .contact-div {
     font-size:2rem;
@@ -473,9 +488,10 @@ padding:2.5rem;
         }
         .profile .profile-caption {
             font-size:20px;
+
         }
         .img-profile {
-            max-width:256px;
+            max-width:356px;
             margin:auto; 
             /* border:1px solid orange; */
             height:300px;
@@ -546,5 +562,25 @@ padding:2.5rem;
 @media screen and (max-width:512px) {
     .aboutme-div {
         padding-bottom:10px;
+    }
+}
+
+/*social icons */
+@media screen and (max-width:512px) {
+    .social-icons {
+        font-size:40px;
+    }
+
+    .footer .footer-div {
+        padding:10px;
+    }
+    .footer-cap {
+        /* width:50%; */
+        display:inline;
+    }
+
+    #copyright {
+        width:auto;
+        margin-left:150px;
     }
 }
