@@ -404,6 +404,9 @@ padding:2.5rem;
 }
 
 /*media queries */
+
+
+
 @media (max-width: 75em)  {
     html  {
         font-size: 60%;
@@ -491,7 +494,10 @@ padding:2.5rem;
         margin:0px;
         padding-top:30px;
         padding:0px;
+        /* width:100%; */
     }
+
+    
     .projects .project-container{
         display:grid;
         grid-template-columns: repeat(1, 1fr);
@@ -499,9 +505,13 @@ padding:2.5rem;
 
     }
 
-    .projects .project-container .profile-img{
+    .projects .project-container:nth-child(even) {
         display:none;
     }
+
+    /* .projects .project-container .project-image { */
+        /* display:none; */
+    /* } */
 }
 
 /*certification section*/
