@@ -388,6 +388,7 @@ padding:2.5rem;
 @media (max-width: 75em)  {
     html  {
         font-size: 60%;
+        width:fit-content;
     }
 }
 /* 980px / 16px = 61.25em */
@@ -411,6 +412,7 @@ padding:2.5rem;
             justify-content: center;
             /* position:relative; */
             /* border:1px solid cyan; */
+            border-bottom-left-radius: 1rem;
         }
     
         .navigation .container-fluid ul {
