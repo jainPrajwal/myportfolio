@@ -472,6 +472,11 @@ padding:2.5rem;
            font-size:22px;
            /* border:1px solid red; */
        }
+
+       .h3-brand {
+           line-height:30px;
+           font-size:18px;
+       }
     }
 
     /*HEADER*/
