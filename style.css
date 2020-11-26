@@ -437,7 +437,7 @@ padding:2.5rem;
     }
 
     /*HEADER*/
-    @media (max-width: 512px) {
+    @media  screen and (max-width: 512px) {
         .profile {
             grid-gap:6rem;
             grid-template-columns: repeat(1, 1fr);
@@ -464,7 +464,7 @@ padding:2.5rem;
     }
 
     /*about me*/
-@media (max-width: 512px) {
+@media screen and (max-width: 512px) {
 
     .main-body {
         margin:0px;
@@ -483,11 +483,16 @@ padding:2.5rem;
 }
 
 /*certification section*/
-@media (max-width:512px) {
+@media screen and (max-width:512px) {
     .certification-section .certification-grid{
         /* margin-right:-1030px; */
         border:1px dotted yellow;
         display:grid;
         justify-items: center;
     }
+}
+
+/*contact section */
+.contact-div ul li {
+    padding:0px;
 }
