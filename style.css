@@ -423,9 +423,10 @@ padding:2.5rem;
 
        .navigation .container-fluid ul li {
            position: relative;
-           right:230px;
+           right:7s0px;
            display:flex;
            justify-content: center;
+           font-size:22px;
            /* border:1px solid red; */
        }
     }
