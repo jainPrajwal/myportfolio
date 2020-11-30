@@ -154,6 +154,8 @@ padding:2.5rem;
       align-self: top; */
       margin-top:220px;
       background-attachment: fixed;
+      display:flex;
+      flex-direction: column;
       
   }
 
@@ -185,6 +187,8 @@ padding:2.5rem;
    @media screen and (max-width:700px) {
       .svg-image {
          width:100vh;
+         position: relative;
+         z-index:-1;
       }
   } 
 
@@ -487,6 +491,14 @@ padding:2.5rem;
     }
 
     /*about me*/
+
+    @media  screen  and (max-width: 512px) {
+        .projects .project-container p {
+            line-height:50px;
+            padding: 10px;
+            font-size:22px;
+        } 
+    }
 @media screen and (max-width: 512px) {
 
     .main-body {
