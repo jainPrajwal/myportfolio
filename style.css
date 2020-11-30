@@ -206,10 +206,10 @@ padding:2.5rem;
     }
   } */
 
-  [data-aos="new-animation"] {
-      /* background: var(--greencolor);
-      transition: background 20ms; */
-  }
+  /* [data-aos="new-animation"] {
+       background: var(--greencolor);
+      transition: background 20ms; 
+  } */
 
 .main-h1 {
     text-align: center;
