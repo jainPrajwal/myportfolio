@@ -207,8 +207,8 @@ padding:2.5rem;
   } */
 
   [data-aos="new-animation"] {
-      background: var(--greencolor);
-      transition: background 20ms;
+      /* background: var(--greencolor);
+      transition: background 20ms; */
   }
 
 .main-h1 {
@@ -232,32 +232,7 @@ padding:2.5rem;
     
 }
 
-/*  
 
-.projects {
-    display: grid;
-    grid-template-columns: repeat(2 , auto);
-    grid-auto-rows: minmax(100px, auto);
-    grid-gap:3rem;
-   grid-auto-columns: auto; 
-}
-
-.projects .project-container {
-    margin-top:35px;
-}
-.projects .project-img-div img {
-    max-width:220px; 
-    display:block;
-    width:100%;
-    height:100%;
-    padding:0px 5px;
-    margin-left:150px;
-    margin-top:35px;
-     border:3px solid var(--hovercolor);   
-}
-
-
-*/
 
 .projects {
     display:grid;
@@ -287,59 +262,9 @@ padding:2.5rem;
     align-self:center;
 }
 
-/*certifications
+/*certifications*/
 
-.certification-section {
-     text-align:center; 
-     padding:10rem 2rem;
-      padding:2rem; 
-}
 
-.certification-header {
-    text-align:center;
-    padding:1rem;
-}
-
-.certification-section .certification-grid {
-    border:1px solid brown;
-    display:grid;
-    grid-template-columns: repeat(auto-fit , minmax(320px,1fr));
-    grid-gap:2rem;
-    max-width:1300px; 
-    margin:0 auto;
-     width:100%; 
-    margin-bottom:160rem; 
-}
-
-.cert-img {
-    width:max-content;
-    height:300px;
-    object-fit: cover;
-    margin:0px;
-    position:relative;
-    left:50px;
-}
-
- .certification-section .certification-grid .cert-box {
-    border:1px solid black;
-    text-decoration: none;
-     margin:auto; 
-     text-align:center; 
-    background-color: black;
-    border-radius: 2rem;
-    margin:20px;
-    position:relative;
-    top:10px;
-
-}
-
-.cert-title {
-    text-align:center;
-    color:white;
-    padding:1rem;
-    justify-content: center;
-
-}*/
 
 
 .certification-grid {
