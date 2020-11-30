@@ -178,15 +178,15 @@ padding:2.5rem;
   @media screen and (min-width:700px) {
     main {
     background-color:#10B981; 
-    width:100vw;
+    /* width:100vw; */
     }
   }
 
-  @media screen and (max-width:700px) {
+   @media screen and (max-width:700px) {
       .svg-image {
-          display:none;
+         width:100vh;
       }
-  }
+  } 
 
   /* aos code */
   /* [data-aos="new-animation"] {
@@ -392,7 +392,7 @@ padding:2.5rem;
     html  {
         font-size: 60%;
         width:fit-content;
-        width:550px;
+        /* width:550px; */
     }
 }
 /* 980px / 16px = 61.25em */
@@ -493,10 +493,13 @@ padding:2.5rem;
         margin:0px;
         padding-top:30px;
         padding:0px;
+        background-color:var(--greencolor);
         /* width:100%; */
     }
 
-    
+    .projects {
+        margin: -12px 12px;
+    }
     .projects .project-container{
         display:grid;
         grid-template-columns: repeat(1, 1fr);
