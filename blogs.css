@@ -249,6 +249,7 @@ body {
 }
 
 .contact-section .contact-div .social-icons {
+    color:white;
     transition: color 500ms;
     transition:transform .2s;
     padding:3px 50px;
@@ -310,9 +311,9 @@ body {
 }
 
 .small-date {
-    padding:10px 80px;
+    padding:10px 0px;
     display:flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     
 }
 

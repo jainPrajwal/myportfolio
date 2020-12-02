@@ -188,7 +188,7 @@ padding:2.5rem;
        /* Chnaged 700px to 512px  */
        /* changes width from 100vh to 100vw */
       .svg-image {
-          width:100vw; 
+          width:100vh; 
          position: relative;
          z-index:-1;
       }
@@ -519,8 +519,8 @@ padding:2.5rem;
     }
 
     .aboutme {
-        /* margin: -12px 12px; */
-        margin:auto;
+        margin: -12px 12px;
+        /* margin:auto; */
     }
     .aboutme .aboutme-container{
         display:grid;
