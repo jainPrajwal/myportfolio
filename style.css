@@ -222,7 +222,7 @@ padding:2.5rem;
 
 .aboutme {
     display:grid;
-    grid-row-gap:3rem;
+    row-gap:3rem;
     background-color: black;
     padding:2rem;
     border-radius: 2rem;
@@ -405,6 +405,7 @@ padding:2.5rem;
             /* border:1px solid cyan; */
             border-bottom-left-radius: 1rem;
             position:fixed;
+            z-index:10;
         }
         .fluid-container {
             margin:0.5rem 4rem;
