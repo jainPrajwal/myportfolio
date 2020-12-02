@@ -305,7 +305,7 @@ body {
     background-color:var(--hovercolor);
     text-decoration: none;
     width:max-content;
-    padding:0.3rem;
+    padding:0.5rem;
     cursor: pointer;
 }
 
@@ -358,11 +358,14 @@ body {
     @media screen and  (max-width: 512px) {
         .navigation  {
             /* display:flex; */
-            justify-content: center;
+            justify-content: flex-end;
              /* position:relative;  */
             /* border:1px solid cyan; */
             border-bottom-left-radius: 1rem;
             position:fixed;
+        }
+        .fluid-container {
+            margin:0.5rem 4rem;
         }
     
         .navigation .container-fluid ul {

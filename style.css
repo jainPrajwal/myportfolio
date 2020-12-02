@@ -35,7 +35,7 @@ body {
 .navigation {
     background-color: #000000;
     border-bottom-right-radius: 1rem;
-    padding:0.5rem 1rem 0.2rem;
+    padding:0.5rem 1rem 1rem;
     position:fixed;
     top:0;
     left:0;
@@ -241,7 +241,7 @@ padding:2.5rem;
 
 
 
-.projects {
+.aboutme {
     display:grid;
     grid-row-gap:3rem;
     background-color: black;
@@ -250,21 +250,21 @@ padding:2.5rem;
     /* width:100%; */
 }
 
-.projects .project-container {
+.aboutme .aboutme-container {
     display:grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap:2rem;
     grid-auto-rows: minmax(100px,auto);
 }
 
-.projects .project-container .profile-image-div,img {
+.aboutme .aboutme-container .profile-image-div,img {
     max-width:220px;
     margin:auto;
     display:flex;
     align-items: center;
     margin-top:50px;
 }
-.projects .project-container .profile-image-div,p {
+.aboutme .aboutme-container .profile-image-div,p {
     display:flex;
     align-self:center;
 }
@@ -405,7 +405,7 @@ padding:2.5rem;
 /* 980px / 16px = 61.25em */
 @media (max-width: 61.25em)  {
     html  {
-        width:fit-content;
+        /* width:fit-content; */
         font-size: 58%;
     }
 }
@@ -500,7 +500,7 @@ padding:2.5rem;
     /*about me*/
 
     @media  screen  and (max-width: 512px) {
-        .projects .project-container p {
+        .aboutme .aboutme-container p {
             line-height:50px;
             padding: 10px;
             font-size:22px;
@@ -516,17 +516,17 @@ padding:2.5rem;
         /* width:100%; */
     }
 
-    .projects {
+    .aboutme {
         margin: -12px 12px;
     }
-    .projects .project-container{
+    .aboutme .aboutme-container{
         display:grid;
         grid-template-columns: repeat(1, 1fr);
         row-gap:50px;
 
     }
 
-    .projects .project-container:nth-child(even) {
+    .aboutme .aboutme-container:nth-child(even) {
         display:none;
     }
 
