@@ -57,7 +57,14 @@ body {
     letter-spacing: 3px;
     /* line-height: 3px; */
 }
-
+.brand-link {
+    color:white;
+    text-decoration: none;
+}
+.brand-link:hover {
+    color:var(--hovercolor);
+    transition: color 500ms ease-in-out;
+}
 .h3-brand:hover {
     color:var(--hovercolor);
     transition: color 500ms ease-in-out;
