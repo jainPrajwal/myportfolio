@@ -180,7 +180,7 @@ padding:2.5rem;
   @media screen and (min-width:512px) {
     main {
     background-color:#10B981; 
-    /* width:100vw; */
+    width:100vw;
     }
   }
 
@@ -400,7 +400,7 @@ padding:2.5rem;
     @media screen and  (max-width: 512px) {
         .navigation  {
             /* display:flex; */
-            /* justify-content: flex-end; */
+            justify-content: flex-end;
              /* position:relative;  */
             /* border:1px solid cyan; */
             border-bottom-left-radius: 1rem;
@@ -412,7 +412,7 @@ padding:2.5rem;
     
         .navigation .container-fluid ul {
         display:flex;
-        margin: 0 1rem;
+        margin: 0rem 1rem;
         justify-content: flex-end;
         position: relative;
         left:150px;
@@ -453,7 +453,7 @@ padding:2.5rem;
         }
         .img-profile {
             max-width:356px;
-            margin:auto; 
+            margin:0px auto; 
             /* border:1px solid orange; */
             height:300px;
             
@@ -496,8 +496,8 @@ padding:2.5rem;
     }
 
     .aboutme {
-        margin: -12px 12px;
-        /* margin:auto; */
+        /* margin: -12px 12px; */
+        margin:auto;
     }
     .aboutme .aboutme-container{
         display:grid;
