@@ -217,9 +217,10 @@ padding:2.5rem;
 
 .main-h1 {
     text-align: center;
-    margin:15px;
-    padding-top:50px;
+    /* margin:15px;
+    padding-top:50px; */
     letter-spacing: 3px;
+    padding-bottom:10px;
 }
 
 .hr {
@@ -227,11 +228,13 @@ padding:2.5rem;
     margin:auto;
     color:var(--hovercolor);
     border-top:3px solid var(--hovercolor);
-    transition:border-width 200ms ease-in-out;    
+    transition:border-width 200ms ease-in-out; 
+    margin-bottom: 10px;   
 }
 
 .main-body {
     padding:50px;
+    padding-top:1px;
     font-size:20px;
     
 }
@@ -481,7 +484,7 @@ padding:2.5rem;
 
     .svg-image-top {
         position: relative;
-        top:80px;
+        top:5px;
     
     }
     .svg-image-bottom {
