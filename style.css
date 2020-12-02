@@ -180,7 +180,7 @@ padding:2.5rem;
   @media screen and (min-width:512px) {
     main {
     background-color:#10B981; 
-    width:100vw;
+    /* width:100vw; */
     }
   }
 
@@ -489,9 +489,9 @@ padding:2.5rem;
 @media screen and (max-width: 512px) {
 
     .main-body {
-        margin:0px;
+        /* margin:0px;
         padding-top:30px;
-        padding:0px;
+        padding:0px; */
         background-color:var(--greencolor);
         /* width:100%; */
     }
