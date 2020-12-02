@@ -24,7 +24,7 @@ body {
     background-color: var(--bgcolor);
     color:var(--color);
     overflow-x: hidden;
-    
+    letter-spacing: 1px;
 }
 
 .hr {
@@ -184,9 +184,11 @@ padding:2.5rem;
     }
   }
 
-   @media screen and (max-width:700px) {
+   @media screen and (max-width:512px) {
+       /* Chnaged 700px to 512px  */
+       /* changes width from 100vh to 100vw */
       .svg-image {
-         width:100vh;
+          width:100vw; 
          position: relative;
          z-index:-1;
       }
@@ -387,7 +389,7 @@ padding:2.5rem;
 
 #copyright {
     /* text-align:right; */
-    margin-left:35rem;
+    margin-left:30rem;
     
 }
 

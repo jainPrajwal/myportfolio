@@ -6,8 +6,8 @@
     --color:white;
     --linkcolor:#1E40AF;
     --hovercolor:#ffc72c;
-    --graycolor:#6B7280;
-    --blackcol:black;
+    --graycolor:#070808;
+    --blackcol:rgb(56, 50, 50);
     --greencolor:#10B981;
 }
 *, *::before, *::after {
@@ -284,7 +284,7 @@ body {
 
 #copyright {
     /* text-align:right; */
-    margin-left:35rem;
+    margin-left:30rem;
     
 }
 
@@ -305,7 +305,7 @@ body {
     background-color:var(--hovercolor);
     text-decoration: none;
     width:max-content;
-    padding:0.5rem;
+    padding:0.4rem 1rem;
     cursor: pointer;
 }
 
