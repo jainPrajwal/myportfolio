@@ -562,7 +562,10 @@ padding:2.5rem;
 
 @media screen and (max-width:512px) {
     .aboutme-div {
-        padding-bottom:10px;
+        /* padding-bottom:10px; */
+    }
+    .hr {
+        margin-bottom:20px;
     }
 }
 
