@@ -264,6 +264,10 @@ body {
     padding:20px;
     
 }
+.contact-section .contact-div a {
+    text-decoration: none;
+    color: white;
+}
 
 .contact-section .contact-div .social-icons {
     transition: color 500ms;
