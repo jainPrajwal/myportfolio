@@ -219,6 +219,16 @@ body {
     position: relative;
     top:15px;
 }
+
+.banana {
+    position: relative;
+    top:12px;
+}
+
+.sweg {
+    position: relative;
+    top:10px;
+}
 .blog-container {
     /* border:1px solid red; */
     margin:20px;
