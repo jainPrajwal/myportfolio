@@ -229,6 +229,11 @@ body {
     position: relative;
     top:10px;
 }
+
+.palindrome {
+    position: relative;
+    top:25px;
+}
 .blog-container {
     /* border:1px solid red; */
     margin:20px;
