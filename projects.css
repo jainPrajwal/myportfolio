@@ -30,14 +30,20 @@ body {
 .blog-hero {
   text-transform: uppercase;
 }
-
+.bg-white {
+  background-color: white;
+  height: 100%;
+  border-radius: 2px;
+}
+.round {
+  border-radius: 50%;
+}
 .link {
   color: dodgerblue;
   text-decoration: none;
 }
 .link:hover {
   color: var(--greencolor);
-
 }
 
 .navigation {
@@ -223,18 +229,18 @@ body {
 }
 
 .banana {
-    position: relative;
-    top:12px;
+  position: relative;
+  top: 12px;
 }
 
 .sweg {
-    position: relative;
-    top:10px;
+  position: relative;
+  top: 10px;
 }
 
 .palindrome {
-    position: relative;
-    top:25px;
+  position: relative;
+  top: 25px;
 }
 .blog-container {
   /* border:1px solid red; */
@@ -279,8 +285,8 @@ body {
   padding: 20px;
 }
 .contact-section .contact-div a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .contact-section .contact-div .social-icons {
