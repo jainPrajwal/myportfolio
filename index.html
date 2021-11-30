@@ -19,21 +19,21 @@
     <!-- navbar -->
     <div class="navigation">
 
-        <div class="fluid-container container-fluid">
-            <div class="brand"> 
+        <div class="fluid-container navigation-container">
+            <div class="brand">
                 <span class="brace">{ </span>&nbsp;
-                <h3 class="h3-brand"> <a href="/" class="brand-link">Prajwal Jain</a> </h3>&nbsp;
+                <h3 class="h3-brand"><a href="/" class="brand-link">Prajwal Jain</a></h3>&nbsp;
                 <span class="brace"> }</span>
             </div>
             <ul>
                 <li>
-                    <a href="/" class="active">home</a>
+                    <a href="/">home</a>
                 </li>
                 <li>
                     <a href="projects.html">projects</a>
                 </li>
                 <li>
-                    <a href="blogs.html">blogs</a>
+                    <a href="/" class="active">blogs</a>
                 </li>
             </ul>
         </div>
@@ -55,7 +55,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" class="svg-image-top svg-image" viewBox="0 0 1440 320">
         <path fill="#10B981" fill-opacity="1" d="M0,256L1440,128L1440,320L0,320Z"></path>
     </svg>
-    <main class='main-body'>
+    <div class='main-body'>
         <div class="aboutme-div-header">
             <h1 class="main-h1" data-aos="fade-up" data-aos-offset="000" data-aos-delay="0" data-aos-duration="800"
                 data-aos-easing="ease-in-out" data-aos-mirror="false" data-aos-once="false"
@@ -150,22 +150,25 @@
             </div>
             <hr class="hr">
             <div class="certification-grid">
-                <a href="/" target="_blank" class="cert-box">
-                    <img src="images/certificates/Coursera ECAC3U4BB4KW-page-001.jpg" class="cert-img"
-                        data-aos="zoom-in-up" data-aos-offset="000" data-aos-delay="50" data-aos-duration="1000"
-                        data-aos-easing="ease-in-out" data-aos-mirror="false" data-aos-once="false"
-                        data-aos-anchor-placement="bottom-bottom">
-                    <p class="cert-title"><span class="code">
-                            &lt;&nbsp;
-                        </span>
-                        Boostrap 4
-                        <span class="code">
-                            &nbsp;&#47&gt;
-                            <!-- &#47="/"-->
-                        </span></p>
-                </a>
-
-                <a href="/" target="_blank" class="cert-box">
+                <div  class="cert-box">
+                    <a href="/" target="_blank">
+                        <img src="images/certificates/Coursera ECAC3U4BB4KW-page-001.jpg" class="cert-img"
+                            data-aos="zoom-in-up" data-aos-offset="000" data-aos-delay="50" data-aos-duration="1000"
+                            data-aos-easing="ease-in-out" data-aos-mirror="false" data-aos-once="false"
+                            data-aos-anchor-placement="bottom-bottom">
+                        <p class="cert-title"><span class="code">
+                                &lt;&nbsp;
+                            </span>
+                            Boostrap 4
+                            <span class="code">
+                                &nbsp;&#47&gt;
+                                <!-- &#47="/"-->
+                            </span></p>
+                    </a>
+    
+                </div>
+               <div class="cert-box">
+                <a href="/" target="_blank" >
                     <img src="images/certificates/certificate.JPG" class="cert-img" data-aos="zoom-in-up"
                         data-aos-offset="000" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out"
                         data-aos-mirror="false" data-aos-once="false" data-aos-anchor-placement="bottom-bottom">
@@ -178,8 +181,10 @@
                             <!-- &#47="/"-->
                         </span></p>
                 </a>
-
-                <a href="/" target="_blank" class="cert-box">
+               </div>
+               
+               <div class="cert-box">
+                <a href="/" target="_blank">
                     <img src="images/certificates/Javascript Algoithms and Data Structures.JPG" class="cert-img"
                         data-aos="zoom-in-up" data-aos-offset="000" data-aos-delay="50" data-aos-duration="1000"
                         data-aos-easing="ease-in-out" data-aos-mirror="false" data-aos-once="false"
@@ -193,8 +198,9 @@
                             <!-- &#47="/"-->
                         </span></p>
                 </a>
-
-                <a href="/" target="_blank" class="cert-box">
+               </div>
+               <div class="cert-box">
+                <a href="/" target="_blank">
                     <img src="images/certificates/Volume2-1306-page-001.jpg" class="cert-img" data-aos="zoom-in-up"
                         data-aos-offset="000" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out"
                         data-aos-mirror="false" data-aos-once="false" data-aos-anchor-placement="bottom-bottom">
@@ -207,7 +213,10 @@
                             <!-- &#47="/"-->
                         </span></p>
                 </a>
-                <a href="/" target="_blank" class="cert-box">
+               </div>
+
+               <div class="cert-box">
+                <a href="/" target="_blank">
                     <img src="images/certificates/06f2a8db-6855-4ad9-b430-0d8e1b337e19-page-001.jpg" class="cert-img"
                         data-aos="zoom-in-up" data-aos-offset="000" data-aos-delay="50" data-aos-duration="1000"
                         data-aos-easing="ease-in-out" data-aos-mirror="false" data-aos-once="false"
@@ -223,8 +232,10 @@
                         </span>
                     </p>
                 </a>
-
-                <a href="/" target="_blank" class="cert-box">
+               </div>
+               
+               <div class="cert-box">
+                <a href="/" target="_blank">
                     <img src="images/certificates/WhatsApp Image 2020-11-26 at 4.42.49 PM (4).jpeg" class="cert-img"
                         data-aos="zoom-in-up" data-aos-offset="000" data-aos-delay="50" data-aos-duration="1000"
                         data-aos-easing="ease-in-out" data-aos-mirror="false" data-aos-once="false"
@@ -238,13 +249,15 @@
                             <!-- &#47="/"-->
                         </span></p>
                 </a>
+               </div>
+                
 
             </div>
 
         </section>
 
         <!-- </div> -->
-    </main>
+    </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" class="svg-image svg-image-bottom">
         <path fill="#1F2937" fill-opacity="1" d="M0,0L1440,64L1440,320L0,320Z"></path>
     </svg>
@@ -262,26 +275,23 @@
             <ul>
                 <li>
 
-                    <i class="fa fa-instagram fa-10x social-icons" id="instagram"> <a
-                            href="https://www.instagram.com/me_the_alchemist_/"></a></i>
+                    <a href="https://www.instagram.com/me_the_alchemist_/"><i class="fa fa-instagram fa-10x social-icons" id="instagram"></i>
+                        </a>
 
                 </li>
+                
                 <li>
-
-                    <i class="fa fa-linkedin fa-10x social-icons" id="linkedin">
-                        <a href="https://www.linkedin.com/in/prajwal-jain-b9a8a0179/"></a>
-                    </i>
-
+                        <a href="https://www.linkedin.com/in/prajwal-jain-b9a8a0179/"><i class="fa fa-linkedin fa-10x social-icons" id="linkedin"></i>
+                        </a>
                 </li>
+
                 <li>
-                    <i class="fa fa-github social-icons" aria-hidden="true" id="github">
-                        <a href="https://github.com/j836"></a>
-                    </i>
+                    
+                        <a href="https://github.com/j836"><i class="fa fa-github social-icons" aria-hidden="true" id="github"></i>
+                        </a>
+                   
                 </li>
             </ul>
-
-
-
         </div>
 
 
