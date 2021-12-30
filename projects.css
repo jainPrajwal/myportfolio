@@ -541,15 +541,9 @@ body {
     padding-top: 0px;
     font-size: 30px;
   }
-}
-
-@media screen and (max-width: 512px) {
   .contact-section-header {
     font-size: 30px;
   }
-}
-
-@media screen and (max-width: 512px) {
   .aboutme-div {
     padding-bottom: 10px;
   }

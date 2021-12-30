@@ -369,11 +369,41 @@ body {
 
     /*navbar*/
     @media screen and  (max-width: 512px) {
-       
-        .navigation {
-            width:
+        .navigation  {
+            /* display:flex; */
+            justify-content: flex-end;
+             /* position:relative;  */
+            /* border:1px solid cyan; */
+            border-bottom-left-radius: 1rem;
+            position:fixed;
         }
-      
+        .fluid-container {
+            margin:0.5rem 4rem;
+        }
+
+        .navigation .container-fluid ul {
+        display:flex;
+        margin: 0 1rem;
+        justify-content: center;
+        position: relative;
+        left:150px;
+        /* border:1px solid green; */
+
+       }
+
+       .navigation .container-fluid ul li {
+           position: relative;
+           right:110px;
+           display:flex;
+           justify-content: center;
+           font-size:22px;
+           /* border:1px solid red; */
+       }
+
+       .h3-brand {
+           line-height:30px;
+           font-size:18px;
+       }
     }
 
     /*HEADER*/
